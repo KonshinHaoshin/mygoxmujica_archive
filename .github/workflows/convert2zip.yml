@@ -1,0 +1,128 @@
+name: Convert other Compressed Files formats to ZIP
+on: [push]
+
+jobs:
+    convert-to-zip:
+        runs-on: ubuntu-latest
+        env:
+            CONVERT_FAILED: 0
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Install required tools
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y unrar p7zip-full zip unzip
+
+            - name: Convert compressed files to ZIP
+              run: |
+                  export LANG=C.UTF-8
+                  export LC_ALL=C.UTF-8
+
+                  find . -type f \( \
+                     -iname "*.tar" -o \
+                     -iname "*.tar.gz" -o \
+                     -iname "*.tgz" -o \
+                     -iname "*.tar.bz2" -o \
+                     -iname "*.tbz2" -o \
+                     -iname "*.tar.xz" -o \
+                     -iname "*.txz" -o \
+                     -iname "*.rar" -o \
+                     -iname "*.7z" \) \
+                     ! -iname "*.zip" -print0 > files.txt
+
+                  while IFS= read -r -d $'\0' file; do
+                    echo "处理文件: $file"
+                    dir=$(dirname "$file")
+                    base=$(basename "$file")
+                    name=$(echo "$base" | sed -E 's/\.(tar|tar\.gz|tgz|tar\.bz2|tbz2|tar\.xz|txz|rar|7z)$//i')
+                    tempDir=$(mktemp -d)
+                    
+                    echo "解压原始文件..."
+                    case "${file,,}" in
+                      *.tar|*.tar.gz|*.tgz|*.tar.bz2|*.tbz2|*.tar.xz|*.txz)
+                        tar -xf "$file" -C "$tempDir" > "$tempDir/../log.txt" 2>&1
+                        status=$?
+                        ;;
+                      *.rar)
+                        unrar x -y "$file" "$tempDir" > "$tempDir/../log.txt" 2>&1
+                        status=$?
+                        ;;
+                      *.7z)
+                        7z x -y "$file" -o"$tempDir" > "$tempDir/../log.txt" 2>&1
+                        status=$?
+                        ;;
+                    esac
+
+                     if [ $status -ne 0 ]; then
+                      echo "::error file=$file:: 原始文件解压失败，跳过"
+                      echo "::group::错误日志"
+                      cat "$tempDir/../log.txt"
+                      echo "::endgroup::"
+
+                      rm -rf "$tempDir" "$tempDir/../log.txt"
+                      echo "CONVERT_FAILED=1" >> $GITHUB_ENV
+                      continue
+                    fi
+
+                    echo "创建ZIP文件..."
+                    (cd "$tempDir" && zip -ry "../temp.zip" . > "$tempDir/../log.txt" 2>&1)
+                    if [ $? -ne 0 ]; then
+                      echo "::error file=$file:: 压缩包创建失败，跳过"
+                      echo "::group::错误日志"
+                      cat "$tempDir/../log.txt"
+                      echo "::endgroup::"
+
+                      rm -rf "$tempDir" "$tempDir/../temp.zip" "$tempDir/../log.txt"
+                      echo "CONVERT_FAILED=1" >> $GITHUB_ENV
+                      continue
+                    fi
+
+                    valiDir=$(mktemp -d)
+                    echo "验证ZIP文件..."
+                    unzip -q "$tempDir/../temp.zip" -d "$valiDir" > "$tempDir/../log.txt" 2>&1
+                    if [ $? -ne 0 ]; then
+                      echo "::error file=$file:: ZIP解压失败，跳过"
+                      echo "::group::错误日志"
+                      cat "$tempDir/../log.txt"
+                      echo "::endgroup::"
+                      
+                      rm -rf "$tempDir" "$tempDir/../temp.zip" "$valiDir" "$tempDir/../log.txt"
+                      echo "CONVERT_FAILED=1" >> $GITHUB_ENV
+                      continue
+                    fi
+
+                    compDir=$(mktemp -d)
+                    (cd "$tempDir" && find . -type f -print0 | xargs -0 md5sum | sort) > "$compDir/origin.md5"
+                    (cd "$valiDir" && find . -type f -print0 | xargs -0 md5sum | sort) > "$compDir/check.md5"
+                    diff -q "$compDir/origin.md5" "$compDir/check.md5" > /dev/null
+                    if [ $? -ne 0 ]; then
+                      echo "::error file=$file:: 验证失败，跳过"
+                      rm -rf "$tempDir" "$tempDir/../temp.zip" "$valiDir" "$compDir" "$tempDir/../log.txt"
+                      echo "CONVERT_FAILED=1" >> $GITHUB_ENV
+                    else
+                      echo "验证成功，删除原始文件 $file"
+                      mv "$tempDir/../temp.zip" "$dir/$name.zip"
+                      rm -rf "$file" "$tempDir" "$valiDir" "$compDir" "$tempDir/../log.txt"
+                    fi
+                  done < files.txt
+
+                  rm files.txt
+
+            - name: Commit converted files
+              run: |
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git add -A
+                  git diff-index --quiet HEAD || git commit -m "转换压缩文件为ZIP格式 [skip ci]"
+                  git push
+            - name: Check status
+              if: ${{ always() }}
+              run: |
+                  if [ "$CONVERT_FAILED" -eq 1 ]; then
+                    echo "::error::发现验证失败的压缩文件，请检查 Convert compressed files to ZIP 任务"
+                    exit 1
+                  else
+                    echo "所有文件转换成功"
+                  fi
