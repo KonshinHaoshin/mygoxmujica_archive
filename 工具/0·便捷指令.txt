@@ -1,0 +1,367 @@
+
+;//高松灯
+;//高松灯的立绘（常服）v3
+changeFigure:mygo_avemujica/tomoli/036_casual-2023_rip/model.json -id=Tomoli_Casual_2023_03 -transform={"position":{"x":500,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Tomoli_Casual_2023_03;//高松灯（常服）v3退场
+
+;//高松灯的立绘（夏季校服-力量型）v5
+changeFigure:mygo_avemujica/tomoli/Tomoli_Power_036_school_summer-2023_rip_v5/model.json -id=Tomoli_Sc_Power_05 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Tomoli_Sc_Power_05;//高松灯（夏季校服-力量型）v5
+
+;//高松灯的立绘（冬季校服-力量型）v5
+changeFigure:mygo_avemujica/tomoli/Tomoli_Power_036_school_winter-2023_rip_v5/model.json -id=Tomoli_Casual_2023_Power_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Tomoli_Casual_2023_Power_01;//高松灯（冬季校服-力量型）v5
+
+;//高松灯的立绘（常服-力量型）v5
+changeFigure:mygo_avemujica/tomoli/Tomoli_Power_036_casual-2023_rip_v5/model.json -id=Tomoli_Cs_Power_05 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Tomoli_Cs_Power_05;//高松灯（常服-力量型）v5
+
+;//高松灯的立绘（夏季校服）v3
+changeFigure:mygo_avemujica/tomoli/036_school_summer-2023_rip/model.json -id=Tomoli_Sc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Tomoli_Sc_01;//高松灯（夏季校服）v3
+
+;//高松灯的立绘（冬季校服）v3
+changeFigure:mygo_avemujica/tomoli/036_school_winter-2023_rip/model.json -id=Tomoli_Wc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Tomoli_Wc_01;//高松灯（冬季校服）v3
+
+;//高松灯的立绘（冬季高二）v3
+changeFigure:mygo_avemujica/tomoli/Tomori_036_school_winter-G2-2023_rip_v1/model.json -id=Tomoli_Wc_02 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Tomoli_Wc_02;//高松灯（冬季校服高二）v3
+
+;//长崎素世
+;//长崎素世的立绘（常服）v3
+changeFigure:mygo_avemujica/soyo/039_casual-2023_rip/model.json -id=Soyo_Casual2023_03 -transform={"position":{"x":400,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Soyo_Casual2023_03;//长崎素世（常服）v3退场
+
+;//长崎素世（夏季校服）
+changeFigure:mygo_avemujica/soyo/039_school_summer-2023_rip/model.json -id=Soyo_SCs_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Soyo_SCs_01;//长崎素世（夏季校服）v3退场
+
+;//长崎素世（冬季校服）
+changeFigure:mygo_avemujica/soyo/039_school_winter-2023_rip/model.json -id=Soyo_Ws_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Soyo_Ws_01;//长崎素世（冬季校服）v3退场
+
+;//长崎素世（初中校服）
+changeFigure:mygo_avemujica/soyo/039_jh_school_winter-2023_rip_v1/model.json -id=Soyo_jh_01 -transform={"position":{"x":660,"y":-130},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Soyo_jh_01;//长崎素世（初中校服）v3退场
+
+;//长崎素世（Wego）
+changeFigure:mygo_avemujica/soyo/Soyo_wego_2024_v2/model.json -id=Soyo_Wego_01 -transform={"position":{"x":660,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Soyo_Wego_01;//长崎素世（Wego）v3退场
+
+
+;//丰川祥子
+;//丰川祥子的立绘（常服）v3
+changeFigure:mygo_avemujica/sakiko/341_casual-2023_rip/model.json -id=SakiKo_Casual2023_03 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=SakiKo_Casual2023_03;//丰川祥子（常服）v3退场
+
+;//丰川祥子的立绘（羽丘夏季）v3
+changeFigure:mygo_avemujica/sakiko/341_school_summer-2023_rip/model.json -id=Sakiko_Sc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Sakiko_Sc_01;//丰川祥子（羽丘夏季）v3退场
+
+;//丰川祥子的立绘（羽丘冬季）v3
+changeFigure:mygo_avemujica/sakiko/341_school_winter-2023_rip/model.json -id=Sakiko_Ws_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Sakiko_Ws_01;//丰川祥子（羽丘冬季）v3退场
+
+;//丰川祥子的立绘（羽丘冬季-高二）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_341_school_winter-G2-2023_rip_v1/model.json -id=Sakiko_Ws_02 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Sakiko_Ws_02;//丰川祥子（羽丘冬季-高二）v3退场
+
+;//丰川祥子的立绘（初中月之森校服）
+changeFigure:mygo_avemujica/sakiko/341_jh_school_winter-2023_rip/model.json -id=Sakiko_jh_Ws_01 -transform={"position":{"x":500,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Sakiko_jh_Ws_01;//丰川祥子（初中月之森校服）退场
+
+;//丰川祥子的立绘（月之森jk冬装）
+changeFigure:mygo_avemujica/sakiko/Sakiko_341_jk_月之森_v1/model.json -id=Sakiko_jk_Ws_02 -transform={"position":{"x":-60,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Sakiko_jk_Ws_02;//丰川祥子（月之森jk冬装）退场
+
+;//丰川祥子的立绘（月之森jk夏装）
+changeFigure:mygo_avemujica/sakiko/Sakiko_341_jk_月之森-夏_v1/model.json -id=Sakiko_jk_Scs_02 -transform={"position":{"x":-60,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Sakiko_jk_Scs_02;//丰川祥子（月之森jk夏装）退场
+
+;//丰川祥子（娇羞-羽丘夏季）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_Blush_341_school_summer-2023_rip_v1/model.json -id=Sakiko_Sc_Blush_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Sakiko_Sc_Blush_01;//丰川祥子（娇羞-羽丘夏季）v3退场
+
+;//丰川祥子的立绘（女仆装-通用版）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_341_短款女仆装_通用版_v1.8/model.json -id=SakiKo_Maid_01 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=SakiKo_Maid_01;//丰川祥子（女仆装）v3退场
+
+;//丰川祥子的立绘（女仆装-Soyo签名版）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_341_短款女仆装_Soyo签名版_v1.8/model.json -id=SakiKo_Maid_Soyo_01 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=SakiKo_Maid_Soyo_01;//丰川祥子（女仆装）v3退场
+
+
+
+
+
+;//椎名立希
+;//椎名立希的立绘（常服）v3
+changeFigure:mygo_avemujica/taki/040_casual-2023_rip/model.json -id=TaKi_Casual2023_03 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=TaKi_Casual2023_03;//椎名立希（常服）v3退场
+
+;//椎名立希的立绘（常服-娇羞）v3
+changeFigure:mygo_avemujica/taki/Taki_blush_040_casual-2023_rip_v1/model.json -id=TaKi_Casual2023_Blush_03 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=TaKi_Casual2023_Blush_03;//椎名立希（常服-娇羞）v3退场
+
+;//椎名立希的立绘（夏校服-娇羞）v3
+changeFigure:mygo_avemujica/taki/Taki_blush_040_school_summer-2023_rip_v1/model.json -id=TaKi_blush_Sc_01 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=TaKi_blush_Sc_01;//椎名立希的立绘（夏校服-娇羞）v3退场
+
+;//椎名立希的立绘（冬校服）v3
+changeFigure:mygo_avemujica/taki/040_school_winter-2023_rip/model.json -id=TaKi_Ws_01 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=TaKi_Ws_01;//椎名立希的立绘（冬校服）v3退场
+
+;//椎名立希的立绘（夏校服）v3
+changeFigure:mygo_avemujica/taki/040_school_summer-2023_rip/model.json -id=TaKi_Sc_02 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=TaKi_Sc_02;//椎名立希的立绘（夏校服）v3退场
+
+;//椎名立希的立绘（RiNG工作装）v2
+changeFigure:mygo_avemujica/taki/040_arbeit_rip/model.json -id=TaKi_ArbeitRiNG_2023_02 -transform={"position":{"x":160,"y":-300},"scale":{"x":0.85,"y":0.85}};
+changeFigure:none -id=TaKi_ArbeitRiNG_2023_02;//椎名立希（工作装）v2退场
+
+;//椎名立希的立绘（冬校服-羽丘）v3
+changeFigure:mygo_avemujica/taki/Taki_040_羽丘_winter-2023_rip_v1/model.json -id=TaKi_Ws_YuQiu_02 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=TaKi_Ws_YuQiu_02;//椎名立希的立绘（冬校服-羽丘）v3退场
+
+;//椎名立希的立绘（冬校服-羽丘高二）v3
+changeFigure:mygo_avemujica/taki/Taki_040_羽丘高二_winter-2023_rip_v1/model.json -id=TaKi_Ws_YuQiu_03 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=TaKi_Ws_YuQiu_03;//椎名立希的立绘（冬校服-羽丘高二）v3退场
+
+
+
+;//若叶睦
+;//若叶睦的立绘（冬季校服）
+changeFigure:mygo_avemujica/mutsumi/338_school_winter-2023_rip/model.json -id=Mutsumi_Ws_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Mutsumi_Ws_01;若叶睦（冬季校服）v3退场
+
+;//若叶睦的立绘（夏季校服）
+changeFigure:mygo_avemujica/mutsumi/338_school_summer-2023_rip/model.json -id=Mutsumi_SCs_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Mutsumi_SCs_01;若叶睦（夏季校服）v3退场
+
+;//若叶睦的立绘（常服）
+changeFigure:mygo_avemujica/mutsumi/338_casual-2023_rip/model.json -id=Mutsumi_Casual2023_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Mutsumi_Casual2023_01;若叶睦（常服）v3退场
+
+
+;//千早爱音
+;//千早爱音的立绘（常服）v3
+changeFigure:mygo_avemujica/anon/037_casual-2023_rip/model.json -id=Anon_Casual2023_03 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Anon_Casual2023_03;//千早爱音（常服）v3退场
+
+;//千早爱音的立绘（夏季校服）v3
+changeFigure:mygo_avemujica/anon/037_school_summer-2023_rip/model.json -id=Anno_Sc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Anno_Sc_01;//千早爱音（夏季校服）v3
+
+;//千早爱音的立绘（冬季校服）v3
+changeFigure:mygo_avemujica/anon/037_school_winter-2023_rip/model.json -id=Anno_Wc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Anno_Wc_01;//千早爱音（冬季校服）v3
+
+;//千早爱音的立绘（TeaPraty）v3
+changeFigure:mygo_avemujica/anon/TeaParty_aono_v2/model.json -id=Anon_TeaPraty_01 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Anon_TeaPraty_01;//千早爱音（TeaPraty）v3退场
+
+;//要乐奈
+;//要乐奈的立绘（常服）v3
+changeFigure:mygo_avemujica/rana/038_casual-2023_rip/model.json -id=Rana_Casual2023_03 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Rana_Casual2023_03;//要乐奈（常服）v3退场
+
+;//要乐奈的立绘（夏校服）v3
+changeFigure:mygo_avemujica/rana/038_school_summer-2023_rip/model.json -id=Rana_Scs_01 -transform={"position":{"x":200,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Rana_Scs_01;//要乐奈（夏校服）v3退场
+
+;//三角初华
+;//三角初华的立绘（夏校服）v3
+changeFigure:mygo_avemujica/uika/337_school_summer-2023_rip/model.json -id=Uika_Sc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Uika_Sc_01;//三角初华（夏校服）v3退场
+
+;//三角初华的立绘（冬校服）v3
+changeFigure:mygo_avemujica/uika/337_school_winter-2023_rip/model.json -id=Uika_Ws_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Uika_Ws_01;//三角初华（冬校服）v3退场
+
+;//三角初华的立绘（常服带帽子）v3
+changeFigure:mygo_avemujica/uika/337_casual-2023_rip/model.json -id=Uika_CsCap_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Uika_CsCap_01;//三角初华（常服带帽子）v3
+
+;//三角初华的立绘（常服-无帽子）v3
+changeFigure:mygo_avemujica/uika/337_casual-2023_nocap_rip/model.json -id=Uika_Cs_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Uika_Cs_01;//三角初华（常服-无帽子）v3
+
+;八幡海铃
+;//八幡海铃的立绘（常服）v3
+changeFigure:mygo_avemujica/umiri/339_casual-2023_rip/model.json -id=Umiri_Casual_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Umiri_Casual_01;//八幡海铃（常服）v3退场
+
+;//八幡海铃的立绘（冬校服）v3
+changeFigure:mygo_avemujica/umiri/339_school_winter-2023_rip/model.json -id=Umiri_Ws_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Umiri_Ws_01;//八幡海铃（冬校服）v3退场
+
+;//八幡海铃的立绘（夏校服）v3
+changeFigure:mygo_avemujica/umiri/339_school_summer-2023_rip/model.json -id=Umiri_Sc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Umiri_Sc_01;//八幡海铃（夏校服）v3退场
+
+;//八幡海铃的立绘（米色水手服）v3
+changeFigure:mygo_avemujica/umiri/Urimi_339_米色水手服_v1/model.json -id=Umiri_Custom_Mi_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Umiri_Custom_Mi_01;//八幡海铃（米色水手服）v3退场
+
+
+
+;//佑天寺若麦的立绘（常服）v3
+changeFigure:mygo_avemujica/nyamu/340_casual-2023_rip/model.json -id=Nyamu_Sc_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Nyamu_Sc_01;//佑天寺若麦的立绘（常服）v3退场
+
+;//户山香澄
+;//户山香澄的立绘（常服）v3
+changeFigure:mygo_avemujica/kasumi/001_casual-2023_rip/model.json -id=Ksm_Casual_2023_01 -transform={"position":{"x":500,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Ksm_Casual_2023_01;//户山香澄（常服）v3退场
+
+;//户山香澄的立绘（冬校服）v3
+changeFigure:mygo_avemujica/kasumi/001_school_winter-2023_rip/model.json -id=Ksm_Sw_2023_01 -transform={"position":{"x":500,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Ksm_Sw_2023_01;//户山香澄（校服）v3退场
+
+
+;//市谷有咲
+;//市谷有咲的立绘（常服）v3
+changeFigure:mygo_avemujica/arisa/005_casual-2023_rip/model.json -id=Ars_Casual_2023_01 -transform={"position":{"x":500,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Ars_Casual_2023_01;//市谷有咲（常服）v3退场
+
+;//市谷有咲的立绘（冬校服）v3
+changeFigure:mygo_avemujica/arisa/005_school_winter-2023_rip/model.json -id=Ars_Sw_2023_01 -transform={"position":{"x":500,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=Ars_Sw_2023_01;//市谷有咲（校服）v3退场
+
+
+;//素魂祥
+;//素魂祥（常服-无马尾）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_Soyo_正常_没马尾_341_casual-2023_rip_v1/model.json -id=素魂祥_无马尾_正常_CS_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=素魂祥_无马尾_正常_CS_01;//素魂祥（常服-无马尾）v3退场
+
+;//素魂祥（常服-羽丘冬-无马尾）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_Soyo_正常_没马尾_341_school_winter-2023_rip_v1/model.json -id=素魂祥_无马尾_正常_Ws_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=素魂祥_无马尾_正常_Ws_01;//素魂祥（常服-羽丘冬-无马尾）v3退场
+
+;//素魂祥（常服-羽丘冬-无马尾-黑化）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_Soyo_黑化_没马尾_341_school_winter-2023_rip_v1/model.json -id=素魂祥_无马尾_Black_Ws_02 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=素魂祥_无马尾_Black_Ws_02;//素魂祥（常服-羽丘冬-无马尾-黑化）v3退场
+
+;//素魂祥（常服-羽丘冬-无马尾-黑化Plus）v3
+changeFigure:mygo_avemujica/sakiko/Sakiko_Soyo_黑化Plus_没马尾_341_school_winter-2023_rip_v1/model.json -id=素魂祥_无马尾_BlackPlus_Ws_02 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=素魂祥_无马尾_BlackPlus_Ws_02;//素魂祥（常服-羽丘冬-无马尾-黑化Plus）v3退场
+
+
+;//祥魂素
+;//祥魂素（常服）v3
+changeFigure:mygo_avemujica/soyo/Soyo_Saki_039_casual-2023_rip_v1/model.json -id=祥魂素_正常_CS_01 -transform={"position":{"x":360,"y":-150},"scale":{"x":0.73,"y":0.73}};
+changeFigure:none -id=祥魂素_正常_CS_01;//祥魂素（常服）v3退场
+
+
+miniAvatar:头像占位.png;//头像占位
+
+miniAvatar:SakiKo_Casual2023_01.png;小头像-祥子(常服)
+miniAvatar:SakiKo_SCs_01.png;小头像-祥子(夏校服)
+miniAvatar:SakiKo_Ws_01.png;小头像-祥子(冬校服)
+miniAvatar:SakiKo_Ws_YueZiSheng_01.png;小头像-祥子(初中月之森)
+miniAvatar:Sakiko_jk_Ws_02.png;小头像-祥子(高中月之森-冬装)
+miniAvatar:Sakiko_jk_SCs_02.png;小头像-祥子(高中月之森-夏装)
+miniAvatar:SakiKo_Maid_03.png;小头像-祥子(短款女仆装)
+
+miniAvatar:Soyo_Casual2023_01.png;小头像-素世(常服)
+miniAvatar:Soyo_SCs_01.png;小头像-素世(夏校服)
+miniAvatar:Soyo_jh_Ws_01.png;小头像-素世(初中月之森)
+miniAvatar:Soyo_Ws_01.png;小头像-素世(冬校服)
+miniAvatar:Soyo_Wego_01.png;小头像-素世(Wego)
+
+miniAvatar:Taki_Casual2023_01.png;小头像-立希(常服)
+miniAvatar:Taki_Scs_01.png;小头像-立希(夏校服)
+miniAvatar:Taki_Ws_01.png;小头像-立希(冬校服)
+miniAvatar:TaKi_Ws_YuQiu_02.png;小头像-立希(羽丘冬校服)
+miniAvatar:TaKi_Ws_YuQiu_03.png;小头像-立希(羽丘冬校服高二)
+
+miniAvatar:Tomori_Casusl2023_01.png;小头像-灯(常服)
+miniAvatar:Tomori_SCs_01.png;小头像-灯(夏校服)
+miniAvatar:Tomori_Ws_01.png;小头像-灯(冬校服)
+miniAvatar:Tomori_Ws_02.png;小头像-灯(冬校服高二)
+miniAvatar:Tomori_SCs_Power_01.png;小头像-灯(夏校服-力量型)
+miniAvatar:Tomori_Ws_Power_01.png;小头像-灯(冬校服-力量型)
+miniAvatar:Tomori_Casusl2023_Power_01.png;小头像-灯(常服-力量型)
+
+miniAvatar:Anon_Casual2023_01.png;小头像-爱音(常服)
+miniAvatar:Anon_SCs_01.png;小头像-爱音(夏校服)
+miniAvatar:Anon_Ws_01.png;小头像-爱音(冬校服)
+miniAvatar:Anon_TeaPraty_01;小头像-爱音(TeaPraty)
+
+miniAvatar:Rana_Casual2023_01.png;小头像-乐奈(常服)
+miniAvatar:Rana_Scs_01.png;小头像-乐奈(夏校服)
+
+miniAvatar:Mutsumi_SCs_01.png;小头像-睦(夏校服)
+miniAvatar:Mutsumi_Ws_01.png;小头像-睦(冬校服)
+miniAvatar:Mutsumi_Casual2023_01.png;小头像-睦(常服)
+
+miniAvatar:Uika_Casusl2023_Nocap_01.png;小头像-初华(常服-无帽子)
+miniAvatar:Uika_Casusl2023_cap_01.png;小头像-初华(常服带帽子)
+miniAvatar:Uika_SCs_01.png;小头像-初华(夏校服)
+miniAvatar:Uika_Ws_01.png;小头像-初华(冬校服)
+
+miniAvatar:Umiri_Casusl2023_01.png;小头像-海铃(常服)
+miniAvatar:Umiri_SCs_01.png;小头像-海铃(夏校服)
+miniAvatar:Umiri_Ws_01.png;小头像-海铃(冬校服)
+miniAvatar:Umiri_米色水手服_01.png;小头像-海铃(米色水手服)
+
+
+miniAvatar:Nyamu_Casual_01.png;小头像-喵梦(常服)
+
+miniAvatar:Ksm_Casual2023_01.png;小头像-香澄（常服）
+miniAvatar:Ksm_Sw_01.png;小头像-香澄（冬校服）
+
+miniAvatar:Ars_Casual2023_01.png;小头像-有咲（常服）
+miniAvatar:Ars_Sw_01.png;小头像-有咲（冬校服）
+
+
+miniAvatar:Saki_Soyo/SakiKo_Soyo_Ws_01.png;素魂祥-正常(常服)
+miniAvatar:Saki_Soyo/SakiKo_无马尾_CS_01.png;素魂祥-无马尾-正常(常服)
+miniAvatar:Saki_Soyo/SakiKo_无马尾_Soyo_Cs_01.png;素魂祥-无马尾-正常01(常服)
+miniAvatar:Saki_Soyo/SakiKo_无马尾_Soyo_Ws_01.png;素魂祥-无马尾-正常01(羽丘冬)
+miniAvatar:Saki_Soyo/SakiKo_无马尾_Soyo_Ws_01_Black.png;素魂祥-无马尾(羽丘冬-黑化01)
+miniAvatar:Saki_Soyo/SakiKo_无马尾_Soyo_Ws_01_Black02.png;素魂祥-无马尾(羽丘冬-黑化Plus)
+
+miniAvatar:Saki_Soyo/Soyo_Saki_Ws_01.png;祥魂素-正常01(冬校服)
+miniAvatar:Saki_Soyo/Soyo_Saki_Cs_01.png;祥魂素-正常01(常服)
+
+miniAvatar:Ksm_Casual2023_01.png;户山香澄(2023常服)
+
+miniAvatar:none;
+
+;//立绘平移
+setTransform:{"position":{"x":60,"y":-150},"scale":{"x":0.73,"y":0.73}} -target=id -duration=600;
+
+;//立绘显示
+setTransform:{"position":{"x":-110,"y":-150},"scale":{"x":0.73,"y":0.73},"alpha":1} -target=id -duration=600;
+
+;//回忆滤镜
+changeFigure:HuiYi_02.png -id=HuiYi;
+changeFigure:none -id=HuiYi;//回忆滤镜退场
+
+;//黑幕独白
+changeFigure:Black.jpg -id=black22 -transform={"position":{"y":-600},"scale":{"x":1.4,"y":1.4},"alpha":1};
+changeFigure:none -id=black22;//黑幕独白退场
+
+;//语音
+playEffect:.wav -volume=50;
+
+;//游戏Ui
+changeFigure:BanG_Ui/ui01.png -id=ui01 -transform={"position":{"y":-730}} -next;
+
+;//半透明黑幕
+
+;//透明头像
+miniAvatar:头像占位.png;
+
+;//用立绘代替角色消失的位置参数：
+{"position":{"y":-740},"scale":{"x":1.2,"y":1.2}}
+
+『』
+
+（）
+↑括号内的是空白字符
+
+;//背景加载到立绘的坐标参数
+changeFigure:Bg/******.png -id=****** -transform={"position":{"y":-783},"scale":{"x":1.1,"y":1.1},"alpha":1};
