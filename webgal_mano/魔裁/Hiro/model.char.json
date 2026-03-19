@@ -1,0 +1,1456 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "name": "Hiro",
+    "exportedAt": "2026-01-16T08:32:13.323Z"
+  },
+  "settings": {
+    "basePath": "./"
+  },
+  "assets": {
+    "layers": [
+      {
+        "id": "Angle01/Body",
+        "group": "Angle01",
+        "name": "Body",
+        "order": 1,
+        "path": "Angle01/Body.webp"
+      },
+      {
+        "id": "Angle01/OptionB/OptionB_Head02",
+        "group": "Angle01/OptionB",
+        "name": "OptionB_Head02",
+        "order": 2,
+        "path": "Angle01/OptionB/OptionB_Head02.webp"
+      },
+      {
+        "id": "Angle01/OptionB/OptionB_Head01",
+        "group": "Angle01/OptionB",
+        "name": "OptionB_Head01",
+        "order": 3,
+        "path": "Angle01/OptionB/OptionB_Head01.webp"
+      },
+      {
+        "id": "Angle01/Head02/HeadBase02",
+        "group": "Angle01/Head02",
+        "name": "HeadBase02",
+        "order": 5,
+        "path": "Angle01/Head02/HeadBase02.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Cheeks02/Cheeks02_Flushed",
+        "group": "Angle01/Head02/Facial02/Cheeks02",
+        "name": "Cheeks02_Flushed",
+        "order": 6,
+        "path": "Angle01/Head02/Facial02/Cheeks02/Cheeks02_Flushed.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Cheeks02/Cheeks02_Normal",
+        "group": "Angle01/Head02/Facial02/Cheeks02",
+        "name": "Cheeks02_Normal",
+        "order": 7,
+        "path": "Angle01/Head02/Facial02/Cheeks02/Cheeks02_Normal.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Closed01",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Determined_Closed01",
+        "order": 9,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Open03",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Determined_Open03",
+        "order": 10,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Open03.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Open02",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Determined_Open02",
+        "order": 11,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Open01",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Determined_Open01",
+        "order": 12,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Determined_Open01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Fearful_Open",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Fearful_Open",
+        "order": 13,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Fearful_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Flushed_Closed",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Flushed_Closed",
+        "order": 14,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Flushed_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Surprised_Open02",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Surprised_Open02",
+        "order": 15,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Surprised_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Surprised_Open",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Surprised_Open",
+        "order": 16,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Surprised_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Cry_Closed",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Cry_Closed",
+        "order": 17,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Cry_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Pensive_Closed",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Pensive_Closed",
+        "order": 18,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Pensive_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Angry_Closed02",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Angry_Closed02",
+        "order": 19,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Angry_Closed02.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Angry_Closed01",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Angry_Closed01",
+        "order": 20,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Angry_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Angry_Open",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Angry_Open",
+        "order": 21,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Angry_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Smile_Open",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Smile_Open",
+        "order": 22,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Smile_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Mouth02/Mouth02_Normal_Closed",
+        "group": "Angle01/Head02/Facial02/Mouth02",
+        "name": "Mouth02_Normal_Closed",
+        "order": 23,
+        "path": "Angle01/Head02/Facial02/Mouth02/Mouth02_Normal_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Serious_Open01",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Serious_Open01",
+        "order": 25,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Serious_Open01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Painful_Open01",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Painful_Open01",
+        "order": 26,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Painful_Open01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Fearful_Open",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Fearful_Open",
+        "order": 27,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Fearful_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Flushed_Open",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Flushed_Open",
+        "order": 28,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Flushed_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Surprised_Open",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Surprised_Open",
+        "order": 29,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Surprised_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Cry_Closed01",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Cry_Closed01",
+        "order": 30,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Cry_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Cry_Open",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Cry_Open",
+        "order": 31,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Cry_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Pensive_Open",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Pensive_Open",
+        "order": 32,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Pensive_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Angry_Open03",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Angry_Open03",
+        "order": 33,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Angry_Open03.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Angry_Open02",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Angry_Open02",
+        "order": 34,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Angry_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Angry_Open",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Angry_Open",
+        "order": 35,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Angry_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Smile_Closed",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Smile_Closed",
+        "order": 36,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Smile_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Closed01",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Normal_Closed01",
+        "order": 37,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open05",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Normal_Open05",
+        "order": 38,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open05.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open04",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Normal_Open04",
+        "order": 39,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open04.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open03",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Normal_Open03",
+        "order": 40,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open03.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open02",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Normal_Open02",
+        "order": 41,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open",
+        "group": "Angle01/Head02/Facial02/Eyes02",
+        "name": "Eyes02_Normal_Open",
+        "order": 42,
+        "path": "Angle01/Head02/Facial02/Eyes02/Eyes02_Normal_Open.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Sweat02/Sweat02_01",
+        "group": "Angle01/Head02/Facial02/Sweat02",
+        "name": "Sweat02_01",
+        "order": 44,
+        "path": "Angle01/Head02/Facial02/Sweat02/Sweat02_01.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Pale02/Pale02_02",
+        "group": "Angle01/Head02/Facial02/Pale02",
+        "name": "Pale02_02",
+        "order": 46,
+        "path": "Angle01/Head02/Facial02/Pale02/Pale02_02.webp"
+      },
+      {
+        "id": "Angle01/Head02/Facial02/Pale02/Pale02_01",
+        "group": "Angle01/Head02/Facial02/Pale02",
+        "name": "Pale02_01",
+        "order": 47,
+        "path": "Angle01/Head02/Facial02/Pale02/Pale02_01.webp"
+      },
+      {
+        "id": "Angle01/Head02/HairClippingMask02",
+        "group": "Angle01/Head02",
+        "name": "HairClippingMask02",
+        "order": 50,
+        "path": "Angle01/Head02/HairClippingMask02.webp"
+      },
+      {
+        "id": "Angle01/Head01/HeadBase01",
+        "group": "Angle01/Head01",
+        "name": "HeadBase01",
+        "order": 52,
+        "path": "Angle01/Head01/HeadBase01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Cheeks01/Cheeks01_Flushed",
+        "group": "Angle01/Head01/Facial01/Cheeks01",
+        "name": "Cheeks01_Flushed",
+        "order": 53,
+        "path": "Angle01/Head01/Facial01/Cheeks01/Cheeks01_Flushed.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Cheeks01/Cheeks01_Normal",
+        "group": "Angle01/Head01/Facial01/Cheeks01",
+        "name": "Cheeks01_Normal",
+        "order": 54,
+        "path": "Angle01/Head01/Facial01/Cheeks01/Cheeks01_Normal.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Closed01",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Determined_Closed01",
+        "order": 56,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Open03",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Determined_Open03",
+        "order": 57,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Open03.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Open02",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Determined_Open02",
+        "order": 58,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Open01",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Determined_Open01",
+        "order": 59,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Determined_Open01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Fearful_Open",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Fearful_Open",
+        "order": 60,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Fearful_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Flushed_Closed",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Flushed_Closed",
+        "order": 61,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Flushed_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Surprised_Open02",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Surprised_Open02",
+        "order": 62,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Surprised_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Surprised_Open",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Surprised_Open",
+        "order": 63,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Surprised_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Cry_Closed",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Cry_Closed",
+        "order": 64,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Cry_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Pensive_Closed",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Pensive_Closed",
+        "order": 65,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Pensive_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Angry_Closed02",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Angry_Closed02",
+        "order": 66,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Angry_Closed02.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Angry_Closed01",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Angry_Closed01",
+        "order": 67,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Angry_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Angry_Open",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Angry_Open",
+        "order": 68,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Angry_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Smile_Open",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Smile_Open",
+        "order": 69,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Smile_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Mouth01/Mouth01_Normal_Closed",
+        "group": "Angle01/Head01/Facial01/Mouth01",
+        "name": "Mouth01_Normal_Closed",
+        "order": 70,
+        "path": "Angle01/Head01/Facial01/Mouth01/Mouth01_Normal_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Serious_Open01",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Serious_Open01",
+        "order": 72,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Serious_Open01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Painful_Open01",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Painful_Open01",
+        "order": 73,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Painful_Open01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Fearful_Open",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Fearful_Open",
+        "order": 74,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Fearful_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Flushed_Open",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Flushed_Open",
+        "order": 75,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Flushed_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Surprised_Open",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Surprised_Open",
+        "order": 76,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Surprised_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Cry_Closed01",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Cry_Closed01",
+        "order": 77,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Cry_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Cry_Open",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Cry_Open",
+        "order": 78,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Cry_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Pensive_Open",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Pensive_Open",
+        "order": 79,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Pensive_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Angry_Open03",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Angry_Open03",
+        "order": 80,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Angry_Open03.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Angry_Open02",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Angry_Open02",
+        "order": 81,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Angry_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Angry_Open",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Angry_Open",
+        "order": 82,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Angry_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Smile_Closed",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Smile_Closed",
+        "order": 83,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Smile_Closed.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Closed01",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Normal_Closed01",
+        "order": 84,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Closed01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open05",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Normal_Open05",
+        "order": 85,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open05.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open04",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Normal_Open04",
+        "order": 86,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open04.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open03",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Normal_Open03",
+        "order": 87,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open03.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open02",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Normal_Open02",
+        "order": 88,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open02.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open",
+        "group": "Angle01/Head01/Facial01/Eyes01",
+        "name": "Eyes01_Normal_Open",
+        "order": 89,
+        "path": "Angle01/Head01/Facial01/Eyes01/Eyes01_Normal_Open.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Sweat01/Sweat01_01",
+        "group": "Angle01/Head01/Facial01/Sweat01",
+        "name": "Sweat01_01",
+        "order": 91,
+        "path": "Angle01/Head01/Facial01/Sweat01/Sweat01_01.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Pale01/Pale01_02",
+        "group": "Angle01/Head01/Facial01/Pale01",
+        "name": "Pale01_02",
+        "order": 93,
+        "path": "Angle01/Head01/Facial01/Pale01/Pale01_02.webp"
+      },
+      {
+        "id": "Angle01/Head01/Facial01/Pale01/Pale01_01",
+        "group": "Angle01/Head01/Facial01/Pale01",
+        "name": "Pale01_01",
+        "order": 94,
+        "path": "Angle01/Head01/Facial01/Pale01/Pale01_01.webp"
+      },
+      {
+        "id": "Angle01/Head01/HairClippingMask01",
+        "group": "Angle01/Head01",
+        "name": "HairClippingMask01",
+        "order": 97,
+        "path": "Angle01/Head01/HairClippingMask01.webp"
+      },
+      {
+        "id": "Angle01/Arms/Arms02",
+        "group": "Angle01/Arms",
+        "name": "Arms02",
+        "order": 99,
+        "path": "Angle01/Arms/Arms02.webp"
+      },
+      {
+        "id": "Angle01/Arms/Arms01",
+        "group": "Angle01/Arms",
+        "name": "Arms01",
+        "order": 100,
+        "path": "Angle01/Arms/Arms01.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR13",
+        "group": "Angle01/ArmR",
+        "name": "ArmR13",
+        "order": 102,
+        "path": "Angle01/ArmR/ArmR13.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR12",
+        "group": "Angle01/ArmR",
+        "name": "ArmR12",
+        "order": 103,
+        "path": "Angle01/ArmR/ArmR12.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR11",
+        "group": "Angle01/ArmR",
+        "name": "ArmR11",
+        "order": 104,
+        "path": "Angle01/ArmR/ArmR11.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR10",
+        "group": "Angle01/ArmR",
+        "name": "ArmR10",
+        "order": 105,
+        "path": "Angle01/ArmR/ArmR10.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR09",
+        "group": "Angle01/ArmR",
+        "name": "ArmR09",
+        "order": 106,
+        "path": "Angle01/ArmR/ArmR09.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR08",
+        "group": "Angle01/ArmR",
+        "name": "ArmR08",
+        "order": 107,
+        "path": "Angle01/ArmR/ArmR08.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR07",
+        "group": "Angle01/ArmR",
+        "name": "ArmR07",
+        "order": 108,
+        "path": "Angle01/ArmR/ArmR07.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR06",
+        "group": "Angle01/ArmR",
+        "name": "ArmR06",
+        "order": 109,
+        "path": "Angle01/ArmR/ArmR06.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR05",
+        "group": "Angle01/ArmR",
+        "name": "ArmR05",
+        "order": 110,
+        "path": "Angle01/ArmR/ArmR05.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR04",
+        "group": "Angle01/ArmR",
+        "name": "ArmR04",
+        "order": 111,
+        "path": "Angle01/ArmR/ArmR04.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR03",
+        "group": "Angle01/ArmR",
+        "name": "ArmR03",
+        "order": 112,
+        "path": "Angle01/ArmR/ArmR03.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR02",
+        "group": "Angle01/ArmR",
+        "name": "ArmR02",
+        "order": 113,
+        "path": "Angle01/ArmR/ArmR02.webp"
+      },
+      {
+        "id": "Angle01/ArmR/ArmR01",
+        "group": "Angle01/ArmR",
+        "name": "ArmR01",
+        "order": 114,
+        "path": "Angle01/ArmR/ArmR01.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL13",
+        "group": "Angle01/ArmL",
+        "name": "ArmL13",
+        "order": 116,
+        "path": "Angle01/ArmL/ArmL13.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL12",
+        "group": "Angle01/ArmL",
+        "name": "ArmL12",
+        "order": 117,
+        "path": "Angle01/ArmL/ArmL12.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL11",
+        "group": "Angle01/ArmL",
+        "name": "ArmL11",
+        "order": 118,
+        "path": "Angle01/ArmL/ArmL11.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL10",
+        "group": "Angle01/ArmL",
+        "name": "ArmL10",
+        "order": 119,
+        "path": "Angle01/ArmL/ArmL10.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL09",
+        "group": "Angle01/ArmL",
+        "name": "ArmL09",
+        "order": 120,
+        "path": "Angle01/ArmL/ArmL09.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL08",
+        "group": "Angle01/ArmL",
+        "name": "ArmL08",
+        "order": 121,
+        "path": "Angle01/ArmL/ArmL08.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL07",
+        "group": "Angle01/ArmL",
+        "name": "ArmL07",
+        "order": 122,
+        "path": "Angle01/ArmL/ArmL07.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL06",
+        "group": "Angle01/ArmL",
+        "name": "ArmL06",
+        "order": 123,
+        "path": "Angle01/ArmL/ArmL06.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL05",
+        "group": "Angle01/ArmL",
+        "name": "ArmL05",
+        "order": 124,
+        "path": "Angle01/ArmL/ArmL05.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL04",
+        "group": "Angle01/ArmL",
+        "name": "ArmL04",
+        "order": 125,
+        "path": "Angle01/ArmL/ArmL04.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL03",
+        "group": "Angle01/ArmL",
+        "name": "ArmL03",
+        "order": 126,
+        "path": "Angle01/ArmL/ArmL03.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL02",
+        "group": "Angle01/ArmL",
+        "name": "ArmL02",
+        "order": 127,
+        "path": "Angle01/ArmL/ArmL02.webp"
+      },
+      {
+        "id": "Angle01/ArmL/ArmL01",
+        "group": "Angle01/ArmL",
+        "name": "ArmL01",
+        "order": 128,
+        "path": "Angle01/ArmL/ArmL01.webp"
+      },
+      {
+        "id": "Angle01/Blending02",
+        "group": "Angle01",
+        "name": "Blending02",
+        "order": 130,
+        "path": "Angle01/Blending02.webp"
+      },
+      {
+        "id": "Angle01/Blending01",
+        "group": "Angle01",
+        "name": "Blending01",
+        "order": 131,
+        "path": "Angle01/Blending01.webp"
+      }
+    ]
+  },
+  "controller": {
+    "baseLayers": [
+      "Angle01+Blending01",
+      "Angle01+Blending02",
+      "Angle01/ArmL+ArmL01",
+      "Angle01/ArmL-ArmL02",
+      "Angle01/ArmL-ArmL03",
+      "Angle01/ArmL-ArmL04",
+      "Angle01/ArmL-ArmL05",
+      "Angle01/ArmL-ArmL06",
+      "Angle01/ArmL-ArmL07",
+      "Angle01/ArmL-ArmL08",
+      "Angle01/ArmL-ArmL09",
+      "Angle01/ArmL-ArmL10",
+      "Angle01/ArmL-ArmL11",
+      "Angle01/ArmL-ArmL12",
+      "Angle01/ArmL-ArmL13",
+      "Angle01/ArmR+ArmR01",
+      "Angle01/ArmR-ArmR02",
+      "Angle01/ArmR-ArmR03",
+      "Angle01/ArmR-ArmR04",
+      "Angle01/ArmR-ArmR05",
+      "Angle01/ArmR-ArmR06",
+      "Angle01/ArmR-ArmR07",
+      "Angle01/ArmR-ArmR08",
+      "Angle01/ArmR-ArmR09",
+      "Angle01/ArmR-ArmR10",
+      "Angle01/ArmR-ArmR11",
+      "Angle01/ArmR-ArmR12",
+      "Angle01/ArmR-ArmR13",
+      "Angle01/Arms-Arms01",
+      "Angle01/Arms-Arms02",
+      "Angle01/Head01+HairClippingMask01",
+      "Angle01/Head01/Facial01/Pale01-Pale01_01",
+      "Angle01/Head01/Facial01/Pale01-Pale01_02",
+      "Angle01/Head01/Facial01/Sweat01-Sweat01_01",
+      "Angle01/Head01/Facial01/Eyes01+Eyes01_Normal_Open",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Normal_Open02",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Normal_Open03",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Normal_Open04",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Normal_Open05",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Normal_Closed01",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Smile_Closed",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Angry_Open",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Angry_Open02",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Angry_Open03",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Pensive_Open",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Cry_Open",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Cry_Closed01",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Surprised_Open",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Flushed_Open",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Fearful_Open",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Painful_Open01",
+      "Angle01/Head01/Facial01/Eyes01-Eyes01_Serious_Open01",
+      "Angle01/Head01/Facial01/Mouth01+Mouth01_Normal_Closed",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Smile_Open",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Angry_Open",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Angry_Closed01",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Angry_Closed02",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Pensive_Closed",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Cry_Closed",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Surprised_Open",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Surprised_Open02",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Flushed_Closed",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Fearful_Open",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Determined_Open01",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Determined_Open02",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Determined_Open03",
+      "Angle01/Head01/Facial01/Mouth01-Mouth01_Determined_Closed01",
+      "Angle01/Head01/Facial01/Cheeks01+Cheeks01_Normal",
+      "Angle01/Head01/Facial01/Cheeks01-Cheeks01_Flushed",
+      "Angle01/Head01+HeadBase01",
+      "Angle01/Head02-HairClippingMask02",
+      "Angle01/Head02/Facial02/Pale02-Pale02_01",
+      "Angle01/Head02/Facial02/Pale02-Pale02_02",
+      "Angle01/Head02/Facial02/Sweat02-Sweat02_01",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Normal_Open",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Normal_Open02",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Normal_Open03",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Normal_Open04",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Normal_Open05",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Normal_Closed01",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Smile_Closed",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Angry_Open",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Angry_Open02",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Angry_Open03",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Pensive_Open",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Cry_Open",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Cry_Closed01",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Surprised_Open",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Flushed_Open",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Fearful_Open",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Painful_Open01",
+      "Angle01/Head02/Facial02/Eyes02-Eyes02_Serious_Open01",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Normal_Closed",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Smile_Open",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Angry_Open",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Angry_Closed01",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Angry_Closed02",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Pensive_Closed",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Cry_Closed",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Surprised_Open",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Surprised_Open02",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Flushed_Closed",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Fearful_Open",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Determined_Open01",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Determined_Open02",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Determined_Open03",
+      "Angle01/Head02/Facial02/Mouth02-Mouth02_Determined_Closed01",
+      "Angle01/Head02/Facial02/Cheeks02-Cheeks02_Normal",
+      "Angle01/Head02/Facial02/Cheeks02-Cheeks02_Flushed",
+      "Angle01/Head02-HeadBase02",
+      "Angle01/OptionB+OptionB_Head01",
+      "Angle01/OptionB-OptionB_Head02",
+      "Angle01+Body"
+    ],
+    "defaultPoses": [
+      "Arms1",
+      "Default"
+    ],
+    "poses": {
+      "ArmL1": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL01"
+      ],
+      "ArmL2": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL02"
+      ],
+      "ArmL3": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL03"
+      ],
+      "ArmL4": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL04"
+      ],
+      "ArmL5": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL05"
+      ],
+      "ArmL6": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL06"
+      ],
+      "ArmL7": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL07"
+      ],
+      "ArmL8": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL08"
+      ],
+      "ArmL9": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL09"
+      ],
+      "ArmL10": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL10"
+      ],
+      "ArmL11": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL11"
+      ],
+      "ArmL12": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL12"
+      ],
+      "ArmL13": [
+        "Angle01/Arms-",
+        "Angle01/ArmL>ArmL13"
+      ],
+      "ArmR1": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR01"
+      ],
+      "ArmR2": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR02"
+      ],
+      "ArmR3": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR03"
+      ],
+      "ArmR4": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR04"
+      ],
+      "ArmR5": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR05"
+      ],
+      "ArmR6": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR06"
+      ],
+      "ArmR7": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR07"
+      ],
+      "ArmR8": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR08"
+      ],
+      "ArmR9": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR09"
+      ],
+      "ArmR10": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR10"
+      ],
+      "ArmR11": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR11"
+      ],
+      "ArmR12": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR12"
+      ],
+      "ArmR13": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR13"
+      ],
+      "Arms1": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR01",
+        "Angle01/ArmL>ArmL01"
+      ],
+      "Arms2": [
+        "Angle01/Arms-",
+        "Angle01/ArmR>ArmR02",
+        "Angle01/ArmL>ArmL01"
+      ],
+      "Arms3": [
+        "Angle01/ArmL-",
+        "Angle01/ArmR-",
+        "Angle01/Arms>Arms01"
+      ],
+      "Arms4": [
+        "Angle01/ArmL-",
+        "Angle01/ArmR-",
+        "Angle01/Arms>Arms02"
+      ],
+      "Head1": [
+        "Angle01/Head02-",
+        "Angle01/Head01+HairClippingMask01",
+        "Angle01/Head01+HeadBase01",
+        "Angle01/OptionB>OptionB_Head01"
+      ],
+      "Head2": [
+        "Angle01/Head01-",
+        "Angle01/Head02+HairClippingMask02",
+        "Angle01/Head02+HeadBase02",
+        "Angle01/OptionB>OptionB_Head02"
+      ],
+      "Pale1-1": [
+        "Angle01/Head01/Facial01/Pale01>Pale01_01"
+      ],
+      "Pale1-Off": [
+        "Angle01/Head01/Facial01/Pale01-"
+      ],
+      "Sweat1-1": [
+        "Angle01/Head01/Facial01/Sweat01>Sweat01_01"
+      ],
+      "Sweat1-Off": [
+        "Angle01/Head01/Facial01/Sweat01-"
+      ],
+      "Eyes1_Normal_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Normal_Open"
+      ],
+      "Eyes1_Normal_Open2": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Normal_Open02"
+      ],
+      "Eyes1_Normal_Open3": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Normal_Open03"
+      ],
+      "Eyes1_Normal_Open4": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Normal_Open04"
+      ],
+      "Eyes1_Normal_Open5": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Normal_Open05"
+      ],
+      "Eyes1_Normal_Closed1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Normal_Closed01"
+      ],
+      "Eyes1_Smile_Closed1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Smile_Closed"
+      ],
+      "Eyes1_Angry_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Angry_Open"
+      ],
+      "Eyes1_Angry_Open2": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Angry_Open02"
+      ],
+      "Eyes1_Angry_Open3": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Angry_Open03"
+      ],
+      "Eyes1_Pensive_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Pensive_Open"
+      ],
+      "Eyes1_Cry_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Cry_Open"
+      ],
+      "Eyes1_Cry_Closed1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Cry_Closed01"
+      ],
+      "Eyes1_Surprised_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Surprised_Open"
+      ],
+      "Eyes1_Flushed_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Flushed_Open"
+      ],
+      "Eyes1_Fearful_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Fearful_Open"
+      ],
+      "Eyes1_Painful_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Painful_Open01"
+      ],
+      "Eyes1_Serious_Open1": [
+        "Angle01/Head01/Facial01/Eyes01>Eyes01_Serious_Open01"
+      ],
+      "Mouth1_Normal_Closed1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Normal_Closed"
+      ],
+      "Mouth1_Smile_Open1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Smile_Open"
+      ],
+      "Mouth1_Angry_Open1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Angry_Open"
+      ],
+      "Mouth1_Angry_Closed1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Angry_Closed01"
+      ],
+      "Mouth1_Angry_Closed2": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Angry_Closed02"
+      ],
+      "Mouth1_Pensive_Closed1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Pensive_Closed"
+      ],
+      "Mouth1_Cry_Closed1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Cry_Closed"
+      ],
+      "Mouth1_Surprised_Open1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Surprised_Open"
+      ],
+      "Mouth1_Surprised_Open2": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Surprised_Open02"
+      ],
+      "Mouth1_Flushed_Closed1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Flushed_Closed"
+      ],
+      "Mouth1_Fearful_Open1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Fearful_Open"
+      ],
+      "Mouth1_Determined_Open1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Determined_Open01"
+      ],
+      "Mouth1_Determined_Open2": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Determined_Open02"
+      ],
+      "Mouth1_Determined_Open3": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Determined_Open03"
+      ],
+      "Mouth1_Determined_Closed1": [
+        "Angle01/Head01/Facial01/Mouth01>Mouth01_Determined_Closed01"
+      ],
+      "Cheeks1-Normal": [
+        "Angle01/Head01/Facial01/Cheeks01>Cheeks01_Normal"
+      ],
+      "Cheeks1-Flushed": [
+        "Angle01/Head01/Facial01/Cheeks01>Cheeks01_Flushed"
+      ],
+      "Cheeks1-Off": [
+        "Angle01/Head01/Facial01/Cheeks01-"
+      ],
+      "Pale2-1": [
+        "Angle01/Head02/Facial02/Pale02>Pale02_01"
+      ],
+      "Pale2-Off": [
+        "Angle01/Head02/Facial02/Pale02-"
+      ],
+      "Sweat2-1": [
+        "Angle01/Head02/Facial02/Sweat02>Sweat02_01"
+      ],
+      "Sweat2-Off": [
+        "Angle01/Head02/Facial02/Sweat02-"
+      ],
+      "Eyes2_Normal_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Normal_Open"
+      ],
+      "Eyes2_Normal_Open2": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Normal_Open02"
+      ],
+      "Eyes2_Normal_Open3": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Normal_Open03"
+      ],
+      "Eyes2_Normal_Open4": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Normal_Open04"
+      ],
+      "Eyes2_Normal_Open5": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Normal_Open05"
+      ],
+      "Eyes2_Normal_Closed1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Normal_Closed01"
+      ],
+      "Eyes2_Smile_Closed1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Smile_Closed"
+      ],
+      "Eyes2_Angry_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Angry_Open"
+      ],
+      "Eyes2_Angry_Open2": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Angry_Open02"
+      ],
+      "Eyes2_Angry_Open3": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Angry_Open03"
+      ],
+      "Eyes2_Pensive_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Pensive_Open"
+      ],
+      "Eyes2_Cry_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Cry_Open"
+      ],
+      "Eyes2_Cry_Closed1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Cry_Closed01"
+      ],
+      "Eyes2_Surprised_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Surprised_Open"
+      ],
+      "Eyes2_Flushed_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Flushed_Open"
+      ],
+      "Eyes2_Fearful_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Fearful_Open"
+      ],
+      "Eyes2_Painful_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Painful_Open01"
+      ],
+      "Eyes2_Serious_Open1": [
+        "Angle01/Head02/Facial02/Eyes02>Eyes02_Serious_Open01"
+      ],
+      "Mouth2_Normal_Closed1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Normal_Closed"
+      ],
+      "Mouth2_Smile_Open1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Smile_Open"
+      ],
+      "Mouth2_Angry_Open1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Angry_Open"
+      ],
+      "Mouth2_Angry_Closed1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Angry_Closed01"
+      ],
+      "Mouth2_Angry_Closed2": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Angry_Closed02"
+      ],
+      "Mouth2_Pensive_Closed1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Pensive_Closed"
+      ],
+      "Mouth2_Cry_Closed1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Cry_Closed"
+      ],
+      "Mouth2_Surprised_Open1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Surprised_Open"
+      ],
+      "Mouth2_Surprised_Open2": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Surprised_Open02"
+      ],
+      "Mouth2_Flushed_Closed1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Flushed_Closed"
+      ],
+      "Mouth2_Fearful_Open1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Fearful_Open"
+      ],
+      "Mouth2_Determined_Open1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Determined_Open01"
+      ],
+      "Mouth2_Determined_Open2": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Determined_Open02"
+      ],
+      "Mouth2_Determined_Open3": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Determined_Open03"
+      ],
+      "Mouth2_Determined_Closed1": [
+        "Angle01/Head02/Facial02/Mouth02>Mouth02_Determined_Closed01"
+      ],
+      "Cheeks2-Normal": [
+        "Angle01/Head02/Facial02/Cheeks02>Cheeks02_Normal"
+      ],
+      "Cheeks2-Flushed": [
+        "Angle01/Head02/Facial02/Cheeks02>Cheeks02_Flushed"
+      ],
+      "Cheeks2-Off": [
+        "Angle01/Head02/Facial02/Cheeks02-"
+      ],
+      "Normal1": [
+        "Head1",
+        "Pale1-Off",
+        "Sweat1-Off",
+        "Eyes1_Normal_Open1",
+        "Mouth1_Normal_Closed1",
+        "Cheeks1-Normal"
+      ],
+      "Smile1": [
+        "Head1",
+        "Pale1-Off",
+        "Sweat1-Off",
+        "Eyes1_Smile_Closed1",
+        "Mouth1_Smile_Open1",
+        "Cheeks1-Normal"
+      ],
+      "Angry1": [
+        "Head1",
+        "Pale1-Off",
+        "Sweat1-Off",
+        "Eyes1_Angry_Open1",
+        "Mouth1_Angry_Open1",
+        "Cheeks1-Normal"
+      ],
+      "Pensive1": [
+        "Head1",
+        "Pale1-Off",
+        "Sweat1-Off",
+        "Eyes1_Pensive_Open1",
+        "Mouth1_Pensive_Closed1",
+        "Cheeks1-Normal"
+      ],
+      "Cry1": [
+        "Head1",
+        "Pale1-Off",
+        "Sweat1-Off",
+        "Eyes1_Cry_Open1",
+        "Mouth1_Cry_Closed1",
+        "Cheeks1-Normal"
+      ],
+      "Flushed1": [
+        "Head1",
+        "Pale1-Off",
+        "Sweat1-Off",
+        "Eyes1_Flushed_Open1",
+        "Mouth1_Flushed_Closed1",
+        "Cheeks1-Flushed"
+      ],
+      "Surprised1": [
+        "Head1",
+        "Pale1-Off",
+        "Sweat1-1",
+        "Eyes1_Surprised_Open1",
+        "Mouth1_Surprised_Open1",
+        "Cheeks1-Normal"
+      ],
+      "Fearful1": [
+        "Head1",
+        "Pale1-1",
+        "Sweat1-Off",
+        "Eyes1_Fearful_Open1",
+        "Mouth1_Fearful_Open1",
+        "Cheeks1-Off"
+      ],
+      "Normal2": [
+        "Head2",
+        "Pale2-Off",
+        "Sweat2-Off",
+        "Eyes2_Normal_Open1",
+        "Mouth2_Normal_Closed1",
+        "Cheeks2-Normal"
+      ],
+      "Smile2": [
+        "Head2",
+        "Pale2-Off",
+        "Sweat2-Off",
+        "Eyes2_Smile_Closed1",
+        "Mouth2_Smile_Open1",
+        "Cheeks2-Normal"
+      ],
+      "Angry2": [
+        "Head2",
+        "Pale2-Off",
+        "Sweat2-Off",
+        "Eyes2_Angry_Open1",
+        "Mouth2_Angry_Open1",
+        "Cheeks2-Normal"
+      ],
+      "Pensive2": [
+        "Head2",
+        "Pale2-Off",
+        "Sweat2-Off",
+        "Eyes2_Pensive_Open1",
+        "Mouth2_Pensive_Closed1",
+        "Cheeks2-Normal"
+      ],
+      "Cry2": [
+        "Head2",
+        "Pale2-Off",
+        "Sweat2-Off",
+        "Eyes2_Cry_Open1",
+        "Mouth2_Cry_Closed1",
+        "Cheeks2-Normal"
+      ],
+      "Surprised2": [
+        "Head2",
+        "Pale2-Off",
+        "Sweat2-1",
+        "Eyes2_Surprised_Open1",
+        "Mouth2_Surprised_Open1",
+        "Cheeks2-Normal"
+      ],
+      "Flushed2": [
+        "Head2",
+        "Pale2-Off",
+        "Sweat2-Off",
+        "Eyes2_Flushed_Open1",
+        "Mouth2_Flushed_Closed1",
+        "Cheeks2-Flushed"
+      ],
+      "Fearful2": [
+        "Head2",
+        "Pale2-1",
+        "Sweat2-Off",
+        "Eyes2_Fearful_Open1",
+        "Mouth2_Fearful_Open1",
+        "Cheeks2-Off"
+      ],
+      "Default": [
+        "Normal1"
+      ],
+      "Smile": [
+        "Smile1"
+      ],
+      "Angry": [
+        "Angry1"
+      ],
+      "Pensive": [
+        "Pensive1"
+      ],
+      "Cry": [
+        "Cry1"
+      ],
+      "Surprised": [
+        "Surprised1"
+      ],
+      "Flushed": [
+        "Flushed1"
+      ],
+      "Fearful": [
+        "Fearful1"
+      ]
+    }
+  }
+}
